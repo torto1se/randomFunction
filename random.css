@@ -6,27 +6,41 @@
     border-radius: 100%;
 }
 
+#discountText{
+    text-transform: uppercase;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: green;
+}
+
 button{
     cursor: pointer;
     font-size: 30px;
     padding: 10px;
     border-radius: 10px;
     border: none;
-    /* background-color: red; */
     background: rgb(73,21,21);
-background: linear-gradient(90deg, rgba(73,21,21,1) 0%, rgba(255,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(73,21,21,1) 0%, rgba(255,0,0,1) 100%);
     color: white;
+    transition: color 0.3s;
+}
+
+button:hover{
+    color: #bdbdbd;
 }
 
 .container{
     display: flex;
     justify-content: center;
+    position: relative;
     align-items: center;
     flex-direction: column-reverse;
-    padding-top: 10%;
-    padding-bottom: 10%;    
+    height: 100vh;
 }
 
 body{
     background-image: url('https://abrakadabra.fun/uploads/posts/2022-03/1648029744_1-abrakadabra-fun-p-fon-dlya-aktsii-skidki-1.jpg');
+    backdrop-filter: blur(10px);
+    margin: 0%;
 }
+
