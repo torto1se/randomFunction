@@ -1,0 +1,32 @@
+#randomImage{
+    width: 500px;
+    height: 500px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 8px 7px rgba(0, 0, 0, 0.36);
+    border-radius: 100%;
+}
+
+button{
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    /* background-color: red; */
+    background: rgb(73,21,21);
+background: linear-gradient(90deg, rgba(73,21,21,1) 0%, rgba(255,0,0,1) 100%);
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column-reverse;
+    padding-top: 10%;
+    padding-bottom: 10%;    
+}
+
+body{
+    background-image: url('https://abrakadabra.fun/uploads/posts/2022-03/1648029744_1-abrakadabra-fun-p-fon-dlya-aktsii-skidki-1.jpg');
+}
