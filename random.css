@@ -41,11 +41,18 @@ button:hover{
     align-items: center;
     flex-direction: column-reverse;
     height: 100vh;
+    width: 800px;
+    background-color: rgba(192, 192, 192, 0.5);
+    border-radius: 100px;
 }
 
 body{
     background-image: url('https://abrakadabra.fun/uploads/posts/2022-03/1648029744_1-abrakadabra-fun-p-fon-dlya-aktsii-skidki-1.jpg');
     backdrop-filter: blur(10px);
     margin: 0%;
+}
+
+*{
+    text-decoration: none;
 }
 
